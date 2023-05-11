@@ -26,7 +26,7 @@ function About(){
                 <div className={activeButton === 2 ? "visible" : "not-visible"}>
                     <div className="place">
                         <p>Indian Institute of technology, Gandhinagar</p>
-                        <p>2020-2024    Current CPI:7.56</p>
+                        <p>2020-2024    Current CPI:7.50</p>
                     </div>
                     <hr/>
                     <div className="place">
@@ -39,7 +39,7 @@ function About(){
                         <p>2013-2018    Percentage:97%</p>
                     </div>
                 </div>
-                <p className={activeButton === 3 ? "visible" : "not-visible"}>Mandavekar</p>
+                <p className={activeButton === 3 ? "visible" : "not-visible"}>Incoming intern at TCS research and Innovation, Banglore</p>
             </div>
             
             <div className='web-dev-img'>

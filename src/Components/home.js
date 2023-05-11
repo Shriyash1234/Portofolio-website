@@ -1,6 +1,8 @@
 import Header from "./header";
 import About from "./about";
 import './CSS/home.css'
+import Skills from "./skills";
+import Work from "./work";
 function Home(){
     return(
         <div className="Home">
@@ -15,7 +17,7 @@ function Home(){
                         <div className="triangle"></div>
                     </div>
                     <div className="name">
-                        <p>Mr.Shriyash Mandavekar</p>
+                        <p>Mr. Shriyash Mandavekar</p>
                     </div>
                     <div className="profession">
                         <p>A web developer and student</p>
@@ -27,6 +29,8 @@ function Home(){
                 </div>
             </div>
             <About/>
+            <Skills/>
+            <Work/>
         </div>
     )
 }

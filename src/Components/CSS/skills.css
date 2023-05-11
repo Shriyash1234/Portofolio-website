@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+.skills-section{
+    padding-top: 100px;
+    background-color: #000;
+    color: #fff;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+.skills-section h2{
+    font-size: 4rem;
+    padding-bottom: 50px;
+    font-style: Raleway,sans-serif;
+    text-align: center;
+    color: #ff4900;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.skillset-1,.skillset-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.skill{
+    font-size: 3rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Raleway,sans-serif;
+    margin: 8px;
+}
+.line{
+    width:90%;
+    background-color: #ff4900;
+    border: 0;
+    border-top: 4px solid #ff4900;
+}
+.skillset-1{
+    margin-left: 200px;
+}
+.skillset-2{
+    margin-right: 200px;
+}
+.sql{
+    size: 150%;
+}
+.skill:hover{
+    background-color: #ff4900;
+}
+@media all and (max-width:991px) {
+    .skills{
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .skillset-1,.skillset-2{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .line{
+        width: 60%;
+    }
+}

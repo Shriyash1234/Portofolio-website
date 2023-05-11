@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.websites{
+    background-color: #000;
+}
+.websites h2{
+    color: #ff4900;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-bottom: 40px;
+}
+.website-collection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.website{
+    background-color: #fff;
+    width: 700px;
+    height: 350px; 
+    margin: 30px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.website-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.website-1{
+    background-image: url('../Images/websiteImages/yearbook2022.jpg');  
+}
+.website-1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/yearbook2022.jpg');  
+}
+.website-2{
+    background-image: url('../Images/websiteImages/InterIIT2022.jpg');
+}
+.website-2:hover{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/InterIIT2022.jpg');
+}
+.website-3{
+    background-image: url('../Images/websiteImages/tedxiitgn2023.jpg');
+}
+.website-3:hover{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/tedxiitgn2023.jpg');
+}
+.website-4{
+    background-image: url('../Images/websiteImages/yearbook2023.jpg');
+}
+.website-4:hover{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/yearbook2023.jpg');
+}
+.website-5{
+    background-image: url('../Images/websiteImages/weather2023.jpg');
+}
+.website-5:hover{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/weather2023.jpg');
+}
+.website-6{
+    background-image: url('../Images/websiteImages/Shriyash2023.jpg');
+}
+.website-6:hover{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/Shriyash2023.jpg');
+}
+.website-7{
+    background-image: url('../Images/websiteImages/RecommendationSystems2023.jpg');
+}
+.website-7:hover{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/RecommendationSystems2023.jpg');
+}
+.website-8{
+    background-image: url('../Images/websiteImages/WorldInequlaity.jpg');
+}
+.website-8:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../Images/websiteImages/WorldInequlaity.jpg');
+}
+
+.website-name{
+    font-size: 2rem;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+    margin-top: 335px;
+    position: absolute;
+    width: 350px;
+    background-color: #fff;
+    height: 30px;
+    color: #000;
+    transform-origin: left center;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: none;
+}
+.link{
+    border: 3px solid #ff4900;
+    height: fit-content;
+    padding: 10px 20px;
+    background-color: #000;
+    margin: 20px;
+    border-radius: 30px;
+    color: #ff4900 ;
+}
+.website:hover .links {
+    display: flex !important;
+    transition-duration: 0.8s;
+}
+/* .website:hover{
+    display: flex !important;
+    opacity: 0.3;
+} */
+
