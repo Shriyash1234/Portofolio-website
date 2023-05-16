@@ -10,6 +10,13 @@
     text-underline-offset: 10px;
     padding-bottom: 40px;
 }
+.Check-out{
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    padding: 10px 50px 30px 50px;
+    font-family:Montserrat,sans-serif;
+}
 .website-collection{
     display: flex;
     flex-direction: row;
@@ -19,7 +26,7 @@
 }
 .website{
     background-color: #fff;
-    width: 700px;
+    width: 680px;
     height: 350px; 
     margin: 30px; 
     background-repeat: no-repeat;
@@ -27,7 +34,7 @@
     background-position: center;
     display: flex;
     flex-direction: row;
-
+    transition: 1s all ease;
 }
 .website-img{
     width: 300px;
@@ -111,7 +118,7 @@
 .link{
     border: 3px solid #ff4900;
     height: fit-content;
-    padding: 10px 20px;
+    padding: 10px 25px;
     background-color: #000;
     margin: 20px;
     border-radius: 30px;
@@ -121,8 +128,60 @@
     display: flex !important;
     transition-duration: 0.8s;
 }
-/* .website:hover{
-    display: flex !important;
-    opacity: 0.3;
-} */
 
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ .button {
+    position: relative;
+    background-color:#313131;
+    border-radius: 3px;
+    box-shadow: 3px 4px 0 #524A4E;
+    padding: 15px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: fit-content;
+    height: 49px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .button:before {
+    content: "";
+    background-color: #515151;
+    width: 0;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 400ms ease-in-out;
+    display: inline-block;
+  }
+  .button:after {
+    content: "";
+    background-color: #3f3f3f;
+    width: 0;
+    height: 50%;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: -1;
+    transition: width 400ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .button:hover::before {
+    width: 100%;
+  }
+  .button:hover::after {
+    width: 100%;
+  }
