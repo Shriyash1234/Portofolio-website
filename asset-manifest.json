@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/pwebsite/static/css/main.2faf2d30.css",
-    "main.js": "/pwebsite/static/js/main.5486bd84.js",
+    "main.css": "/pwebsite/static/css/main.29be7a67.css",
+    "main.js": "/pwebsite/static/js/main.881587eb.js",
     "static/js/787.f712ca47.chunk.js": "/pwebsite/static/js/787.f712ca47.chunk.js",
     "static/media/yearbook2022.jpg": "/pwebsite/static/media/yearbook2022.161bb05b3d427acf7ebc.jpg",
     "static/media/Shriyash2023.jpg": "/pwebsite/static/media/Shriyash2023.96ef6f107a9544a4e9ae.jpg",
+    "static/media/yearbook2023.jpg": "/pwebsite/static/media/yearbook2023.1f6e2e85d1109314503d.jpg",
     "static/media/weather2023.jpg": "/pwebsite/static/media/weather2023.2910ff8493a7a5561115.jpg",
-    "static/media/yearbook2023.jpg": "/pwebsite/static/media/yearbook2023.748c1e1238c8d7ec0d30.jpg",
     "static/media/Shriyash2.jpg": "/pwebsite/static/media/Shriyash2.d59c6de0e15549308e8c.jpg",
     "static/media/RecommendationSystems2023.jpg": "/pwebsite/static/media/RecommendationSystems2023.a80612b80741d8631a7c.jpg",
     "static/media/tedxiitgn2023.jpg": "/pwebsite/static/media/tedxiitgn2023.e54da3c7a6b935a20c26.jpg",
@@ -14,12 +14,12 @@
     "static/media/InterIIT2022.jpg": "/pwebsite/static/media/InterIIT2022.2ba98ec6b4b1b11354bd.jpg",
     "static/media/web-dev.jpg": "/pwebsite/static/media/web-dev.3739555b21854e66b2fc.jpg",
     "index.html": "/pwebsite/index.html",
-    "main.2faf2d30.css.map": "/pwebsite/static/css/main.2faf2d30.css.map",
-    "main.5486bd84.js.map": "/pwebsite/static/js/main.5486bd84.js.map",
+    "main.29be7a67.css.map": "/pwebsite/static/css/main.29be7a67.css.map",
+    "main.881587eb.js.map": "/pwebsite/static/js/main.881587eb.js.map",
     "787.f712ca47.chunk.js.map": "/pwebsite/static/js/787.f712ca47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2faf2d30.css",
-    "static/js/main.5486bd84.js"
+    "static/css/main.29be7a67.css",
+    "static/js/main.881587eb.js"
   ]
 }
