@@ -3,6 +3,7 @@ import About from "./about";
 import './CSS/home.css'
 import Skills from "./skills";
 import Work from "./work";
+import Contact from "./contact";
 function Home(){
     return(
         <div className="Home">
@@ -31,6 +32,7 @@ function Home(){
             <About/>
             <Skills/>
             <Work/>
+            <Contact/>
         </div>
     )
 }

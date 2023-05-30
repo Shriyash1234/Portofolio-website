@@ -60,7 +60,7 @@ function Work(){
                         <p className='website-name'>Yearbook 2023</p>
                         <div className='links'>
                            <a target='_blank' rel="noopener noreferrer" href='https://github.com/Shriyash1234/Yearbook-23'><p className='link'>Github</p></a> 
-                           <a target='_blank' rel="noopener noreferrer" href='https://shriyash1234.github.io/Yearbook-23/'><p className='link'>Website</p></a> 
+                           <a target='_blank' rel="noopener noreferrer" href='https://students.iitgn.ac.in/yearbook/2023'><p className='link'>Website</p></a> 
                         </div>
                     </div>
                     <div className='website website-5'>
