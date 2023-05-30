@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pwebsite/static/css/main.29be7a67.css",
-    "main.js": "/pwebsite/static/js/main.881587eb.js",
+    "main.css": "/pwebsite/static/css/main.c7a4e919.css",
+    "main.js": "/pwebsite/static/js/main.2bd234e7.js",
     "static/js/787.f712ca47.chunk.js": "/pwebsite/static/js/787.f712ca47.chunk.js",
     "static/media/yearbook2022.jpg": "/pwebsite/static/media/yearbook2022.161bb05b3d427acf7ebc.jpg",
     "static/media/Shriyash2023.jpg": "/pwebsite/static/media/Shriyash2023.96ef6f107a9544a4e9ae.jpg",
@@ -14,12 +14,12 @@
     "static/media/InterIIT2022.jpg": "/pwebsite/static/media/InterIIT2022.2ba98ec6b4b1b11354bd.jpg",
     "static/media/web-dev.jpg": "/pwebsite/static/media/web-dev.3739555b21854e66b2fc.jpg",
     "index.html": "/pwebsite/index.html",
-    "main.29be7a67.css.map": "/pwebsite/static/css/main.29be7a67.css.map",
-    "main.881587eb.js.map": "/pwebsite/static/js/main.881587eb.js.map",
+    "main.c7a4e919.css.map": "/pwebsite/static/css/main.c7a4e919.css.map",
+    "main.2bd234e7.js.map": "/pwebsite/static/js/main.2bd234e7.js.map",
     "787.f712ca47.chunk.js.map": "/pwebsite/static/js/787.f712ca47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29be7a67.css",
-    "static/js/main.881587eb.js"
+    "static/css/main.c7a4e919.css",
+    "static/js/main.2bd234e7.js"
   ]
 }
