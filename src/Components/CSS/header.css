@@ -110,9 +110,11 @@ li {
   transition: 0.5s;
 }
 .hover{
+  color: #fff;
     padding: 15px !important;
 }
 .hover:hover{
+  cursor: pointer;
     background-color: #ff4900 !important;
     border-radius: 5px;
 }

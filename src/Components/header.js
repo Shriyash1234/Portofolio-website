@@ -9,6 +9,24 @@ const Header = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   var ConditionalLink = isAuthenticated? '/PDC/PlacementMaterial' : '/PDC/login';
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+  const handleAboutClick = () => {
+    const element = document.getElementsByClassName('About')[0];
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const handleWorkClick = () => {
+    const element = document.getElementsByClassName('websites')[0];
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const handleContactClick = () => {
+    const element = document.getElementsByClassName('Contact-me')[0];
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
       <nav className="main-nav">
@@ -27,16 +45,16 @@ const Header = () => {
           >
           <ul>
             <li>
-              <Link to="/PDC/about"><p className="hover">About Me</p></Link>
+             <p className="hover" onClick={handleAboutClick}>About Me</p>
             </li>
             <li>
-              <Link to="/PDC/team"><p className="hover">Work</p></Link>
+              <p className="hover" onClick={handleWorkClick}>Work</p>
             </li>
             <li>
-              <Link to="/PDC/clubs"><p className="hover">Resume</p></Link>
+              <p className="hover" >Resume</p>
             </li>
             <li>
-              <Link to="/PDC/PastSecretaries"><p className="hover">Contact Me</p></Link>
+              <p className="hover" onClick={handleContactClick}>Contact Me</p>
             </li>
           </ul>
         </div>
