@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/pwebsite/static/css/main.b19cab76.css",
-    "main.js": "/pwebsite/static/js/main.2bd234e7.js",
-    "static/js/787.f712ca47.chunk.js": "/pwebsite/static/js/787.f712ca47.chunk.js",
-    "static/media/yearbook2022.jpg": "/pwebsite/static/media/yearbook2022.161bb05b3d427acf7ebc.jpg",
-    "static/media/Shriyash2023.jpg": "/pwebsite/static/media/Shriyash2023.96ef6f107a9544a4e9ae.jpg",
-    "static/media/yearbook2023.jpg": "/pwebsite/static/media/yearbook2023.1f6e2e85d1109314503d.jpg",
-    "static/media/weather2023.jpg": "/pwebsite/static/media/weather2023.2910ff8493a7a5561115.jpg",
-    "static/media/Shriyash2.jpg": "/pwebsite/static/media/Shriyash2.d59c6de0e15549308e8c.jpg",
-    "static/media/RecommendationSystems2023.jpg": "/pwebsite/static/media/RecommendationSystems2023.a80612b80741d8631a7c.jpg",
-    "static/media/tedxiitgn2023.jpg": "/pwebsite/static/media/tedxiitgn2023.e54da3c7a6b935a20c26.jpg",
-    "static/media/WorldInequlaity.jpg": "/pwebsite/static/media/WorldInequlaity.d374de48af18963bf33f.jpg",
-    "static/media/InterIIT2022.jpg": "/pwebsite/static/media/InterIIT2022.2ba98ec6b4b1b11354bd.jpg",
-    "static/media/web-dev.jpg": "/pwebsite/static/media/web-dev.3739555b21854e66b2fc.jpg",
-    "index.html": "/pwebsite/index.html",
-    "main.b19cab76.css.map": "/pwebsite/static/css/main.b19cab76.css.map",
-    "main.2bd234e7.js.map": "/pwebsite/static/js/main.2bd234e7.js.map",
-    "787.f712ca47.chunk.js.map": "/pwebsite/static/js/787.f712ca47.chunk.js.map"
+    "main.css": "/Portofolio-website/static/css/main.c7f3f364.css",
+    "main.js": "/Portofolio-website/static/js/main.72dfcc96.js",
+    "static/js/787.f712ca47.chunk.js": "/Portofolio-website/static/js/787.f712ca47.chunk.js",
+    "static/media/yearbook2022.jpg": "/Portofolio-website/static/media/yearbook2022.161bb05b3d427acf7ebc.jpg",
+    "static/media/Shriyash2023.jpg": "/Portofolio-website/static/media/Shriyash2023.96ef6f107a9544a4e9ae.jpg",
+    "static/media/yearbook2023.jpg": "/Portofolio-website/static/media/yearbook2023.1f6e2e85d1109314503d.jpg",
+    "static/media/weather2023.jpg": "/Portofolio-website/static/media/weather2023.2910ff8493a7a5561115.jpg",
+    "static/media/Shriyash2.jpg": "/Portofolio-website/static/media/Shriyash2.d59c6de0e15549308e8c.jpg",
+    "static/media/RecommendationSystems2023.jpg": "/Portofolio-website/static/media/RecommendationSystems2023.a80612b80741d8631a7c.jpg",
+    "static/media/tedxiitgn2023.jpg": "/Portofolio-website/static/media/tedxiitgn2023.e54da3c7a6b935a20c26.jpg",
+    "static/media/WorldInequlaity.jpg": "/Portofolio-website/static/media/WorldInequlaity.d374de48af18963bf33f.jpg",
+    "static/media/InterIIT2022.jpg": "/Portofolio-website/static/media/InterIIT2022.2ba98ec6b4b1b11354bd.jpg",
+    "static/media/web-dev.jpg": "/Portofolio-website/static/media/web-dev.3739555b21854e66b2fc.jpg",
+    "index.html": "/Portofolio-website/index.html",
+    "main.c7f3f364.css.map": "/Portofolio-website/static/css/main.c7f3f364.css.map",
+    "main.72dfcc96.js.map": "/Portofolio-website/static/js/main.72dfcc96.js.map",
+    "787.f712ca47.chunk.js.map": "/Portofolio-website/static/js/787.f712ca47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b19cab76.css",
-    "static/js/main.2bd234e7.js"
+    "static/css/main.c7f3f364.css",
+    "static/js/main.72dfcc96.js"
   ]
 }
