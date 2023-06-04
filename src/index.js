@@ -8,7 +8,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index path="/pwebsite" element={<Home/>} />
+        <Route index path="/Portofolio-website" element={<Home/>} />
       </Routes>
     </BrowserRouter>
   );
