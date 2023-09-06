@@ -24,7 +24,7 @@ function Home(){
                         <p>A web developer and student</p>
                     </div>
                     <div className="buttons-home">
-                        <p className="download">Download CV</p>
+                        <a href="https://drive.google.com/file/d/1liQKWblbIX3WPGwSwZJ-e30Kn0W6PeM6/view?usp=sharing" target="_blank"><p className="download">Download CV</p></a>
                         <p className="work">My Work</p>
                     </div>
                 </div>
