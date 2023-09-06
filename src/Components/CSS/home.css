@@ -68,7 +68,7 @@
     width: 80%;
     height: 80%;
 }
-.buttons{
+.buttons-home{
     display: flex;
     flex-direction: row;
 }
@@ -171,7 +171,7 @@
         padding: 16px;
         margin-bottom: 15px;
     }
-    .buttons{
+    .buttons-home{
         flex-direction: column;
     }
 }

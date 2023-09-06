@@ -63,6 +63,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.experience{
+    padding: 20px 0px;
+}
 @media all and (max-width:991px) {
     .About{
         flex-direction: column;

@@ -26,20 +26,24 @@ function About(){
                 <div className={activeButton === 2 ? "visible" : "not-visible"}>
                     <div className="place">
                         <p>Indian Institute of technology, Gandhinagar</p>
-                        <p>2020-2024    Current CPI:7.50</p>
+                        <p>2020-2024&nbsp;&nbsp;&nbsp;&nbsp;Current CPI:7.63</p>
                     </div>
                     <hr/>
                     <div className="place">
                         <p>St. Paul College of Science, Satara</p>
-                        <p>2018-2020    Percentage:83.54%</p>
+                        <p>2018-2020&nbsp;&nbsp;&nbsp;&nbsp;Percentage:83.54%</p>
                     </div>
                     <hr/>
                     <div className="place">
                         <p>New English School, Satara</p>
-                        <p>2013-2018    Percentage:97%</p>
+                        <p>2013-2018&nbsp;&nbsp;&nbsp;&nbsp;Percentage:97%</p>
                     </div>
                 </div>
-                <p className={activeButton === 3 ? "visible" : "not-visible"}>Incoming intern at TCS research and Innovation, Banglore</p>
+                <p className={activeButton === 3 ? "visible" : "not-visible"}>
+                    <p className="experience">Summer internship at TCS research and Innovation, Banglore</p>
+                    <hr/>
+                    <p className="experience">Interface Developer, CRTDH labs, IIT Gandhinagar</p>
+                </p>
             </div>
             
             <div className='web-dev-img'>

@@ -23,7 +23,7 @@ function Home(){
                     <div className="profession">
                         <p>A web developer and student</p>
                     </div>
-                    <div className="buttons">
+                    <div className="buttons-home">
                         <p className="download">Download CV</p>
                         <p className="work">My Work</p>
                     </div>

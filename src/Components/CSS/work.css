@@ -23,6 +23,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 50px;
+    transition: 1000ms;
 }
 .website{
     background-color: #fff;
@@ -185,3 +186,48 @@
   .button:hover::after {
     width: 100%;
   }
+
+
+.animation-container {
+    position:absolute;
+    width: 100vw;
+    height: 100%;
+}
+
+.black-screen {
+    position: absolute;
+    background-color: #313131;
+    width: 0;
+    height: 100%;
+    transition: width 1s ease-in-out;
+    z-index: 5;
+}
+
+#left-screen {
+    left: 0;
+}
+
+#right-screen {
+    right: 0;
+}
+
+#left-screen.active {
+    width: 50%;
+}
+
+#right-screen.active {
+    width: 50%;
+}
+
+@keyframes resetAnimation {
+    0% {
+        width: 50%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+#left-screen.reset, #right-screen.reset {
+    animation: resetAnimation 1s ease-in-out;
+}

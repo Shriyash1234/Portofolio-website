@@ -3,21 +3,32 @@ function Work(){
     const categories= ['SHOW ALL','HTML5','CSS','JAVASCRIPT','NODE.JS','REACT.JS','MONGODB','PYTHON']
     const websites = [[''],['website-8'],['website-8'],['website-5','website-7','website-8'],['website-3','website-5','website-6','website-7','website-8'],['website-1','website-2','website-3','website-6','website-8'],['website-2','website-3','website-5','website-6','website-7','website-8'],['website-1','website-2','website-3','website-4','website-5','website-6']]
     const ShowWebistes = event => {
-        const websiteElements = document.getElementsByClassName('website');
+        const leftScreen = document.getElementById('left-screen');
+        const rightScreen = document.getElementById('right-screen');
+
+        leftScreen.classList.add('active');
+        rightScreen.classList.add('active');
+
+        setTimeout(() => {
+            leftScreen.classList.remove('active');
+            rightScreen.classList.remove('active');
+            const websiteElements = document.getElementsByClassName('website');
             for (let i = 0; i < websiteElements.length; i++) {
                 websiteElements[i].style.display = 'flex';
             }
-        const target = event.target.innerHTML;
-        for(let i =0;i<categories.length;i++){
-            if(target===categories[i]){
-                if(i===0){}
-                else{
-                    for(let j =0;j< websites[i].length;j++){
-                        document.getElementsByClassName(websites[i][j])[0].style.display = 'none'
+            const target = event.target.innerHTML;
+            for(let i =0;i<categories.length;i++){
+                if(target===categories[i]){
+                    if(i===0){}
+                    else{
+                        for(let j =0;j< websites[i].length;j++){
+                            document.getElementsByClassName(websites[i][j])[0].style.display = 'none'
+                        }
                     }
                 }
             }
-        }
+            }, 1000);
+        
       }
     return(
         <section className="websites">
@@ -35,6 +46,10 @@ function Work(){
             </div>
             <div className='web-sites'>
                 <div className='website-collection'>
+                <div class="animation-container">
+                    <div id="left-screen" class="black-screen"></div>
+                    <div id="right-screen" class="black-screen"></div>
+                </div>
                     <div className='website website-1'>
                         <p className='website-name'>Yearbook 2022</p>
                         <div className='links'>
