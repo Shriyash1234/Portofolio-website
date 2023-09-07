@@ -51,7 +51,7 @@ const Header = () => {
               <p className="hover" onClick={handleWorkClick}>Work</p>
             </li>
             <li>
-              <p className="hover" >Resume</p>
+            <a href="https://drive.google.com/file/d/1liQKWblbIX3WPGwSwZJ-e30Kn0W6PeM6/view?usp=sharing" target="_blank"><p className="hover">Resume</p></a>
             </li>
             <li>
               <p className="hover" onClick={handleContactClick}>Contact Me</p>

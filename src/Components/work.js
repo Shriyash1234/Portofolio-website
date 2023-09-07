@@ -5,7 +5,10 @@ function Work(){
     const ShowWebistes = event => {
         const leftScreen = document.getElementById('left-screen');
         const rightScreen = document.getElementById('right-screen');
-
+        const websiteElements = document.getElementsByClassName('website');
+        for(let i =0;i<websiteElements.length;i++){
+            websiteElements[i].style.zIndex = -1;
+        }
         leftScreen.classList.add('active');
         rightScreen.classList.add('active');
 
@@ -26,8 +29,13 @@ function Work(){
                         }
                     }
                 }
+                setTimeout(() => {
+                    for (let i = 0; i < websiteElements.length; i++) {
+                        websiteElements[i].style.zIndex = '5';
+                    }
+                },50)
             }
-            }, 1000);
+            }, 1200);
         
       }
     return(

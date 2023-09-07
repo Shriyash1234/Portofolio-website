@@ -5,6 +5,12 @@ import Skills from "./skills";
 import Work from "./work";
 import Contact from "./contact";
 function Home(){
+    const handleWorkClick = () => {
+        const element = document.getElementsByClassName('websites')[0];
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
     return(
         <div className="Home">
             <Header/>
@@ -25,7 +31,7 @@ function Home(){
                     </div>
                     <div className="buttons-home">
                         <a href="https://drive.google.com/file/d/1liQKWblbIX3WPGwSwZJ-e30Kn0W6PeM6/view?usp=sharing" target="_blank"><p className="download">Download CV</p></a>
-                        <p className="work">My Work</p>
+                        <p onClick={handleWorkClick} className="work">My Work</p>
                     </div>
                 </div>
             </div>

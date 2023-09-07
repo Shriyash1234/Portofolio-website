@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 50px;
-    transition: 1000ms;
+    transition: 1s all ease;
 }
 .website{
     background-color: #fff;
@@ -35,7 +35,8 @@
     background-position: center;
     display: flex;
     flex-direction: row;
-    transition: 1s all ease;
+    transition: 1.2s all ease;
+    z-index: 10;
 }
 .website-img{
     width: 300px;
@@ -127,7 +128,7 @@
 }
 .website:hover .links {
     display: flex !important;
-    transition-duration: 0.8s;
+    transition-duration: 1s;
 }
 
 .buttons{
@@ -199,7 +200,7 @@
     background-color: #313131;
     width: 0;
     height: 100%;
-    transition: width 1s ease-in-out;
+    transition: width 0.8s ease-in-out;
     z-index: 5;
 }
 
